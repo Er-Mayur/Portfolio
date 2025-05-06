@@ -35,7 +35,7 @@ This portfolio represents my work as a developer with a focus on:
 
 ## 📷 Preview
 
-![Portfolio Preview] <img width="1470" alt="Screenshot 2025-05-03 at 1 19 32 AM" src="https://github.com/user-attachments/assets/acd36cbb-e4f7-499e-bcd2-b7e4d84baf67" />
+<img width="1470" alt="Screenshot 2025-05-03 at 1 19 32 AM" src="https://github.com/user-attachments/assets/acd36cbb-e4f7-499e-bcd2-b7e4d84baf67" />
 
 ---
 
