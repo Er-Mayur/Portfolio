@@ -1,0 +1,116 @@
+{
+  "personalInfo": {
+    "name": "Mayur Mahajan",
+    "title": "Python Full-Stack Developer | Android Developer | Web Development Lead",
+    "location": "Pune, Maharashtra, India",
+    "phone": "+91 9595976494",
+    "email": "mahajanmayur2111@gmail.com",
+    "profileImage": "hero.png",
+    "resume": "https://drive.google.com/file/d/1TrQbOGubyrmTa_eV5TB_FvqXLHs5iaQ_/view",
+    "about": "I am a passionate Python Full-Stack Developer and Android Developer specializing in building scalable, user-focused applications. With expertise in React.js, Firebase, REST APIs, and MongoDB, I have delivered 4+ production-ready projects spanning Android apps, web platforms, and automated backend systems. I thrive in Agile environments, leading teams to boost delivery efficiency by 40%. Currently pursuing a B.E. in AI & ML with a CGPA of 9.05/10, I am committed to driving innovation through clean code, modern design principles, and problem-solving that delivers measurable impact."
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/mayurmahajan2111",
+    "github": "https://github.com/Er-Mayur",
+    "playstore": "https://play.google.com/store/apps/details?id=com.ermayurmahajan.wordgame",
+    "email": "mailto:mahajanmayur2111@gmail.com"
+  },
+  "skills": {
+    "Languages": ["Python", "Java", "JavaScript", "SQL", "HTML", "CSS", "XML", "PHP"],
+    "Frameworks & Libraries": ["Django", "React.js", "Node.js", "REST APIs", "MVC Architecture"],
+    "Databases": ["MongoDB", "MySQL", "Firebase Realtime DB"],
+    "Dev Tools": ["Git", "GitHub", "Vercel", "Android Studio", "WordPress", "Postman", "Google Sheets API", "Apps Script", "ClickUp"],
+    "Practices": ["Agile", "API Testing", "Unit Testing", "Version Control", "Responsive Design"]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Artificial Intelligence & Machine Learning",
+      "institution": "P.E.S. Modern College of Engineering, Pune",
+      "year": "Sept 2023 – Jun 2026 • CGPA: 9.05/10"
+    },
+    {
+      "degree": "Diploma in Mechanical Engineering",
+      "institution": "Government Polytechnic, Jalgaon",
+      "year": "Dec 2020 – Jul 2023 • 86.72%"
+    },
+    {
+      "degree": "SSC (10th Grade)",
+      "institution": "La. Na. High School, Jalgaon",
+      "year": "Mar 2020 • 94.80%"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Web Developer Intern",
+      "company": "Aroma Brand Solutions",
+      "period": "Sept 2024 – Feb 2025",
+      "points": [
+        "Built assessment platform (Apps Script + MongoDB) for 500+ students.",
+        "Cut manual effort by 75% via unit testing and JSON-based API flows.",
+        "Boosted delivery by 40% in Agile team using Git and modular MVC patterns.",
+        "Delivered client portal via WordPress, Elementor, Superio; responsive design for cross-device UX."
+      ],
+      "tools": ["Apps Script", "Node.js", "Postman", "MongoDB", "JavaScript", "ClickUp", "WordPress", "PHP"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "TwitterProject — Django CRUD App",
+      "link": "https://github.com/Er-Mayur/Django-Tweetproject",
+      "description": "A simple Django CRUD web app with authentication and media uploads.",
+      "tech": ["Django", "Python", "Bootstrap", "SQLite"],
+      "image": "project_images/TwitterProject.png"
+    },
+    {
+      "title": "Virtual Mouse using Hand Gestures (macOS Compatible)",
+      "link": "https://github.com/Er-Mayur/Virtual-Mouse",
+      "description": "Control your mouse with hand gestures using your laptop camera.",
+      "tech": ["OpenCV", "MediaPipe", "PyAutoGUI", "Python"],
+      "image": "project_images/Virtual Mouse.png"
+    },
+    {
+      "title": "Simon Game",
+      "link": "https://github.com/Er-Mayur/Simon-Game",
+      "demo": "https://er-mayur.github.io/Simon-Game/",
+      "description": "Classic Simon memory game with color and sound sequences.",
+      "tech": ["HTML", "CSS", "JavaScript", "jQuery"],
+      "image": "project_images/SimonGame.png"
+    },
+    {
+      "title": "QR-Firebase-Attendance — Admin App",
+      "link": "https://github.com/Er-Mayur/QR-Firebase-Attendance-Admin-App",
+      "description": "Android app for managing attendance through QR codes.",
+      "tech": ["Java", "Firebase", "Android Studio"],
+      "image": "project_images/QR-Firebase-Attendance — Admin App.png"
+    },
+    {
+      "title": "Find the Number",
+      "link": "https://github.com/Er-Mayur/Find-the-Number",
+      "description": "Guess a hidden number between 1 and 100 within 10 chances.",
+      "tech": ["Python", "tkinter-Python"],
+      "image": "project_images/Find the number.png"
+    },
+    {
+      "title": "Word Game — Play Store",
+      "store": "https://play.google.com/store/apps/details?id=com.ermayurmahajan.wordgame",
+      "link": "https://github.com/Er-Mayur/Word-Game",
+      "description": "Android word puzzle game published on Play Store.",
+      "tech": ["Java", "Firebase", "Android Studio"],
+      "image": "project_images/Word Game.png"
+    },
+    {
+      "title": "TodoApp",
+      "link": "https://github.com/Er-Mayur/TodoApp",
+      "description": "To-do list Android app with real-time Firebase sync.",
+      "tech": ["Java", "Firebase", "Android Studio"],
+      "image": "project_images/To Do list.png"
+    },
+    {
+      "title": "QR-Firebase-Attendance — Student App",
+      "link": "https://github.com/Er-Mayur/QR-Firebase-Attendance-Student-App",
+      "description": "Collect student details, upload profile images, and generate QR codes from Firebase UIDs.",
+      "tech": ["Java", "Firebase", "Android Studio"],
+      "image": "project_images/QR-Firebase-Attendance — Student App.png"
+    }
+  ]
+}

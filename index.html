@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayur Mahajan - Python Full-Stack & Android Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header id="header" class="fixed-header">
+        <div class="container">
+            <a href="#hero" class="logo">&lt;MayurMahajan.in/&gt;</a>
+            <nav class="desktop-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="hamburger-icon"></span>
+            </button>
+            <div class="mobile-menu">
+                <nav>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#skills" class="mobile-nav-link">Skills</a>
+                    <a href="#experience" class="mobile-nav-link">Experience</a>
+                    <a href="#projects" class="mobile-nav-link">Projects</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero-section">
+            <div class="bg-elements">
+                <div class="bg-circle bg-circle-1"></div>
+                <div class="bg-circle bg-circle-2"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image animate-fade-in">
+                        <div class="image-container">
+                            <div class="image-bg"></div>
+                            <img id="profile-image" src="" alt="Mayur Mahajan">
+                        </div>
+                    </div>
+                    <div class="hero-text-new animate-fade-in">
+                        <span class="hero-intro">Hello, I'm</span>
+                        <h1 class="hero-name" id="hero-name"></h1>
+                        <p class="hero-title">
+                            I am a <span id="typewriter" class="typewriter"></span>
+                        </p>
+                        <p class="large-text" id="hero-about-short"></p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="#" id="download-resume" target="_blank" class="btn btn-secondary" download>Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#about" class="scroll-down" aria-label="Scroll down">
+                    <span>Scroll Down</span>
+                    <i data-lucide="arrow-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section grey-bg">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="badge">About Me</span>
+                    <h2 class="heading-lg">My Background</h2>
+                </div>
+                <div class="about-layout animate-on-scroll">
+                    <div class="about-description">
+                        <h3>Innovation at the Intersection of Code & Creativity</h3>
+                        <div class="prose" id="about-me-content">
+                        </div>
+                    </div>
+                    <div id="about-focus-grid" class="about-focus-grid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="badge">My Skills</span>
+                    <h2 class="heading-lg">Technical Expertise</h2>
+                </div>
+                <div id="skills-container" class="skills-container">
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="section grey-bg">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="badge">My Journey</span>
+                    <h2 class="heading-lg">Experience & Education</h2>
+                </div>
+                <div class="journey-layout">
+                    <!-- Experience Column -->
+                    <div class="journey-column animate-on-scroll">
+                        <h3 class="journey-column-title">
+                            <i data-lucide="briefcase"></i> Experience
+                        </h3>
+                        <div id="experience-column" class="journey-items">
+                            <!-- Experience items will be populated here by JS -->
+                        </div>
+                    </div>
+                    <!-- Education Column -->
+                    <div class="journey-column animate-on-scroll">
+                        <h3 class="journey-column-title">
+                            <i data-lucide="graduation-cap"></i> Education
+                        </h3>
+                        <div id="education-column" class="journey-items">
+                            <!-- Education items will be populated here by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="badge">My Work</span>
+                    <h2 class="heading-lg">Featured Projects</h2>
+                </div>
+                <div id="projects-grid" class="projects-grid-new">
+                </div>
+                <div class="more-projects animate-on-scroll">
+                    <a href="#" id="github-link" target="_blank" rel="noopener noreferrer" class="github-link">
+                        <i data-lucide="github"></i>
+                        View More Projects on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section grey-bg">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="badge">Get In Touch</span>
+                    <h2 class="heading-lg">Let's Work Together</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="glass-card contact-info animate-on-scroll">
+                        <h3>Contact Information</h3>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h4>Phone</h4>
+                                    <a href="#" id="contact-phone"></a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h4>Email</h4>
+                                    <a href="#" id="contact-email"></a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h4>Location</h4>
+                                    <p id="contact-location"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <h4>Connect With Me</h4>
+                            <div class="social-icons" id="social-icons-container">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card contact-form animate-on-scroll">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="How can I help you?"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <i data-lucide="send"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="section-divider"></div>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#hero" class="logo">&lt;MayurMahajan.in/&gt;</a>
+                    <p>© <span id="currentYear"></span> Mayur Mahajan. All rights reserved.</p>
+                </div>
+                <button id="scrollToTop" aria-label="Scroll to top">
+                    <i data-lucide="arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
