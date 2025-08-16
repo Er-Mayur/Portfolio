@@ -96,7 +96,7 @@
       "link": "https://github.com/Er-Mayur/Word-Game",
       "description": "Android word puzzle game published on Play Store.",
       "tech": ["Java", "Firebase", "Android Studio"],
-      "image": "https://drive.google.com/file/d/1NjMsR5AM2KMCZkfOyQuy9_jGdZev9-om/view"
+      "image": "project_images/Word Game.webp"
     },
     {
       "title": "TodoApp",
