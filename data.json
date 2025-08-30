@@ -16,11 +16,46 @@
     "email": "mailto:mahajanmayur2111@gmail.com"
   },
   "skills": {
-    "Languages": ["Python", "Java", "JavaScript", "SQL", "HTML", "CSS", "XML", "PHP"],
-    "Frameworks & Libraries": ["Django", "React.js", "Node.js", "REST APIs", "MVC Architecture"],
-    "Databases": ["MongoDB", "MySQL", "Firebase Realtime DB"],
-    "Dev Tools": ["Git", "GitHub", "Vercel", "Android Studio", "WordPress", "Postman", "Google Sheets API", "Apps Script", "ClickUp"],
-    "Practices": ["Agile", "API Testing", "Unit Testing", "Version Control", "Responsive Design"]
+    "Languages": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "HTML",
+      "CSS",
+      "XML",
+      "PHP"
+    ],
+    "Frameworks & Libraries": [
+      "Django",
+      "React.js",
+      "Node.js",
+      "REST APIs",
+      "MVC Architecture"
+    ],
+    "Databases": [
+      "MongoDB",
+      "MySQL",
+      "Firebase Realtime DB"
+    ],
+    "Dev Tools": [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Android Studio",
+      "WordPress",
+      "Postman",
+      "Google Sheets API",
+      "Apps Script",
+      "ClickUp"
+    ],
+    "Practices": [
+      "Agile",
+      "API Testing",
+      "Unit Testing",
+      "Version Control",
+      "Responsive Design"
+    ]
   },
   "education": [
     {
@@ -50,22 +85,69 @@
         "Boosted delivery by 40% in Agile team using Git and modular MVC patterns.",
         "Delivered client portal via WordPress, Elementor, Superio; responsive design for cross-device UX."
       ],
-      "tools": ["Apps Script", "Node.js", "Postman", "MongoDB", "JavaScript", "ClickUp", "WordPress", "PHP"]
+      "tools": [
+        "Apps Script",
+        "Node.js",
+        "Postman",
+        "MongoDB",
+        "JavaScript",
+        "ClickUp",
+        "WordPress",
+        "PHP"
+      ]
     }
   ],
   "projects": [
     {
+      "title": "Weather App — Django OpenWeatherMap",
+      "link": "https://github.com/Er-Mayur/Django-Weather-Application",
+      "demo": "https://django-weather-application.vercel.app/",
+      "description": "A Django web app that shows real-time weather data using the OpenWeatherMap API.",
+      "tech": [
+        "Django",
+        "Python",
+        "OpenWeatherMap API",
+        "TailwindCSS"
+      ],
+      "image": "project_images/WeatherApp.webp"
+    },
+    {
+      "title": "QR Code Generator — Flask App",
+      "link": "https://github.com/Er-Mayur/Flask-QR-code-Generator",
+      "demo": "https://flask-qr-code-generator-mocha.vercel.app/",
+      "description": "A Flask-based QR code generator with preview, PNG download, and share functionality.",
+      "tech": [
+        "Flask",
+        "Python",
+        "qrcode",
+        "Pillow",
+        "Tailwind"
+      ],
+      "image": "project_images/QRCodeGenerator.webp"
+    },
+    {
       "title": "TwitterProject — Django CRUD App",
       "link": "https://github.com/Er-Mayur/Django-Tweetproject",
+      "demo": "https://django-tweetproject.vercel.app/",
       "description": "A simple Django CRUD web app with authentication and media uploads.",
-      "tech": ["Django", "Python", "Bootstrap", "SQLite"],
+      "tech": [
+        "Django",
+        "Python",
+        "Bootstrap",
+        "SQLite"
+      ],
       "image": "project_images/TwitterProject.webp"
     },
     {
       "title": "Virtual Mouse using Hand Gestures (macOS Compatible)",
       "link": "https://github.com/Er-Mayur/Virtual-Mouse",
       "description": "Control your mouse with hand gestures using your laptop camera.",
-      "tech": ["OpenCV", "MediaPipe", "PyAutoGUI", "Python"],
+      "tech": [
+        "OpenCV",
+        "MediaPipe",
+        "PyAutoGUI",
+        "Python"
+      ],
       "image": "project_images/Virtual Mouse.webp"
     },
     {
@@ -73,21 +155,33 @@
       "link": "https://github.com/Er-Mayur/Simon-Game",
       "demo": "https://er-mayur.github.io/Simon-Game/",
       "description": "Classic Simon memory game with color and sound sequences.",
-      "tech": ["HTML", "CSS", "JavaScript", "jQuery"],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery"
+      ],
       "image": "project_images/SimonGame.webp"
     },
     {
       "title": "QR-Firebase-Attendance — Admin App",
       "link": "https://github.com/Er-Mayur/QR-Firebase-Attendance-Admin-App",
       "description": "Android app for managing attendance through QR codes.",
-      "tech": ["Java", "Firebase", "Android Studio"],
+      "tech": [
+        "Java",
+        "Firebase",
+        "Android Studio"
+      ],
       "image": "project_images/QR-Firebase-Attendance — Admin App.webp"
     },
     {
       "title": "Find the Number",
       "link": "https://github.com/Er-Mayur/Find-the-Number",
       "description": "Guess a hidden number between 1 and 100 within 10 chances.",
-      "tech": ["Python", "tkinter-Python"],
+      "tech": [
+        "Python",
+        "tkinter-Python"
+      ],
       "image": "project_images/Find the number.webp"
     },
     {
@@ -95,21 +189,33 @@
       "store": "https://play.google.com/store/apps/details?id=com.ermayurmahajan.wordgame",
       "link": "https://github.com/Er-Mayur/Word-Game",
       "description": "Android word puzzle game published on Play Store.",
-      "tech": ["Java", "Firebase", "Android Studio"],
+      "tech": [
+        "Java",
+        "Firebase",
+        "Android Studio"
+      ],
       "image": "project_images/Word Game.webp"
     },
     {
       "title": "TodoApp",
       "link": "https://github.com/Er-Mayur/TodoApp",
       "description": "To-do list Android app with real-time Firebase sync.",
-      "tech": ["Java", "Firebase", "Android Studio"],
+      "tech": [
+        "Java",
+        "Firebase",
+        "Android Studio"
+      ],
       "image": "project_images/To Do list.webp"
     },
     {
       "title": "QR-Firebase-Attendance — Student App",
       "link": "https://github.com/Er-Mayur/QR-Firebase-Attendance-Student-App",
       "description": "Collect student details, upload profile images, and generate QR codes from Firebase UIDs.",
-      "tech": ["Java", "Firebase", "Android Studio"],
+      "tech": [
+        "Java",
+        "Firebase",
+        "Android Studio"
+      ],
       "image": "project_images/QR-Firebase-Attendance — Student App.webp"
     }
   ]
