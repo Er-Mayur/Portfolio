@@ -31,7 +31,10 @@
       "React.js",
       "Node.js",
       "REST APIs",
-      "MVC Architecture"
+      "MVC Architecture",
+      "TailwindCSS",
+      "Bootstrap"
+
     ],
     "Databases": [
       "MongoDB",
@@ -121,7 +124,7 @@
         "Python",
         "qrcode",
         "Pillow",
-        "Tailwind"
+        "TailwindCSS"
       ],
       "image": "project_images/QRCodeGenerator.webp"
     },
