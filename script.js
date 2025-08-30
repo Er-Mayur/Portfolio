@@ -96,33 +96,89 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function populateSkills(skills) {
         const skillIconMap = {
-            'Python': { name: 'python', variant: 'plain' }, 'Java': { name: 'java', variant: 'plain' }, 'JavaScript': { name: 'javascript', variant: 'plain' }, 'SQL': { name: 'mysql', variant: 'plain-wordmark' }, 'HTML': { name: 'html5', variant: 'plain' }, 'CSS': { name: 'css3', variant: 'plain' }, 'XML': { name: 'html5', variant: 'plain' }, 'PHP': { name: 'php', variant: 'plain' }, 'Django': { name: 'django', variant: 'plain' }, 'React.js': { name: 'react', variant: 'original' }, 'Node.js': { name: 'nodejs', variant: 'plain' }, 'MongoDB': { name: 'mongodb', variant: 'plain' }, 'MySQL': { name: 'mysql', variant: 'plain' }, 'Firebase Realtime DB': { name: 'firebase', variant: 'plain' }, 'Git': { name: 'git', variant: 'plain' }, 'GitHub': { name: 'github', variant: 'original' }, 'Vercel': { name: 'vercel', variant: 'original' }, 'Android Studio': { name: 'androidstudio', variant: 'plain' }, 'WordPress': { name: 'wordpress', variant: 'plain' }, 'Postman': { name: 'postman', variant: 'plain' },
-            'REST APIs': null, 'MVC Architecture': null, 'Google Sheets API': null, 'Apps Script': null, 'ClickUp': null, 'Agile': null, 'API Testing': null, 'Unit Testing': null, 'Version Control': null, 'Responsive Design': null
+            // --- Languages ---
+            'Python': { name: 'python', variant: 'plain' },
+            'Java': { name: 'java', variant: 'plain' },
+            'JavaScript': { name: 'javascript', variant: 'plain' },
+            'SQL': { name: 'mysql', variant: 'plain-wordmark' },
+            'HTML': { name: 'html5', variant: 'plain' },
+            'CSS': { name: 'css3', variant: 'plain' },
+            'XML': { name: 'html5', variant: 'plain' },
+            'PHP': { name: 'php', variant: 'plain' },
+
+            // --- Frameworks & Libraries ---
+            'Django': { name: 'django', variant: 'plain' },
+            'React.js': { name: 'react', variant: 'original' },
+            'Node.js': { name: 'nodejs', variant: 'plain' },
+            'TailwindCSS': { name: 'tailwindcss', variant: 'plain' },
+            'Bootstrap': { name: 'bootstrap', variant: 'plain' },
+            'REST APIs': { lucide: 'link' },
+            'MVC Architecture': { lucide: 'layers' },
+
+            // --- Databases ---
+            'MongoDB': { name: 'mongodb', variant: 'plain' },
+            'MySQL': { name: 'mysql', variant: 'plain' },
+            'Firebase Realtime DB': { name: 'firebase', variant: 'plain' },
+
+            // --- Dev Tools ---
+            'Git': { name: 'git', variant: 'plain' },
+            'GitHub': { name: 'github', variant: 'original' },
+            'Vercel': { lucide: 'cloud' },
+            'Android Studio': { name: 'androidstudio', variant: 'plain' },
+            'WordPress': { name: 'wordpress', variant: 'plain' },
+            'Postman': { lucide: 'send' }, 
+            'Google Sheets API': { lucide: 'sheet' },
+            'Apps Script': { lucide: 'code-2' },
+            'ClickUp': { lucide: 'check-square' },
+
+            // --- Practices ---
+            'Agile': { lucide: 'users' },
+            'API Testing': { lucide: 'activity' },
+            'Unit Testing': { lucide: 'check-circle' },
+            'Version Control': { lucide: 'git-branch' },
+            'Responsive Design': { lucide: 'layout' }
         };
+
         const skillColors = {
-            'python': '#3776AB', 'java': '#007396', 'javascript': '#F7DF1E', 'mysql': '#4479A1', 'html5': '#E34F26', 'css3': '#1572B6', 'php': '#777BB4', 'django': '#092E20', 'nodejs': '#339933', 'mongodb': '#47A248', 'firebase': '#FFCA28', 'git': '#F05032', 'androidstudio': '#3DDC84', 'wordpress': '#21759B', 'postman': '#FF6C37'
+            'python': '#3776AB', 'java': '#007396', 'javascript': '#F7DF1E',
+            'mysql': '#4479A1', 'html5': '#E34F26', 'css3': '#1572B6',
+            'php': '#777BB4', 'django': '#092E20', 'nodejs': '#339933',
+            'mongodb': '#47A248', 'firebase': '#FFCA28', 'git': '#F05032',
+            'androidstudio': '#3DDC84', 'wordpress': '#21759B',
+            'postman': '#FF6C37', 'bootstrap': '#7952B3', 'tailwindcss': '#38BDF8'
         };
+
         const skillsContainer = document.getElementById('skills-container');
         skillsContainer.innerHTML = '';
+
         for (const category in skills) {
             const categoryDiv = document.createElement('div');
             categoryDiv.className = 'skill-category-grid animate-on-scroll';
+
             const title = document.createElement('h3');
             title.textContent = category;
             categoryDiv.appendChild(title);
+
             const skillsList = document.createElement('div');
             skillsList.className = 'skills-list';
+
             skills[category].forEach(skill => {
                 const skillItem = document.createElement('div');
                 skillItem.className = 'skill-item-new';
+
                 const iconData = skillIconMap[skill];
                 let iconElement;
+
                 if (iconData) {
-                    iconElement = document.createElement('i');
-                    iconElement.className = `devicon-${iconData.name}-${iconData.variant}`;
-                    if (iconData.variant !== 'plain') {
-                        iconElement.classList.add('colored');
+                    if (iconData.lucide) {
+                        iconElement = document.createElement('i');
+                        iconElement.setAttribute('data-lucide', iconData.lucide);
+                        iconElement.style.width = '30px';
+                        iconElement.style.height = '1.75rem';
+                        iconElement.style.color = 'var(--primary)';
                     } else {
+                        iconElement = document.createElement('i');
+                        iconElement.className = `devicon-${iconData.name}-${iconData.variant}`;
                         iconElement.style.color = skillColors[iconData.name] || 'var(--primary)';
                     }
                 } else {
@@ -132,15 +188,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     iconElement.style.height = '1.75rem';
                     iconElement.style.color = 'var(--gray-400)';
                 }
+
                 const name = document.createElement('span');
                 name.textContent = skill;
+
                 skillItem.appendChild(iconElement);
                 skillItem.appendChild(name);
                 skillsList.appendChild(skillItem);
             });
+
             categoryDiv.appendChild(skillsList);
             skillsContainer.appendChild(categoryDiv);
         }
+
+        // Refresh Lucide icons
+        lucide.createIcons();
     }
 
     function populateExperienceAndEducation(experience, education) {
@@ -199,7 +261,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'project-card-new animate-on-scroll';
 
-            // Create and append the image container
             if (project.image) {
                 const imageContainer = document.createElement('div');
                 imageContainer.className = 'project-image-container';
