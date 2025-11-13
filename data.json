@@ -34,7 +34,6 @@
       "MVC Architecture",
       "TailwindCSS",
       "Bootstrap"
-
     ],
     "Databases": [
       "MongoDB",
@@ -83,16 +82,18 @@
       "company": "Aroma Brand Solutions",
       "period": "Sept 2024 – Feb 2025",
       "points": [
-        "Built assessment platform (Apps Script + MongoDB) for 500+ students.",
-        "Cut manual effort by 75% via unit testing and JSON-based API flows.",
-        "Boosted delivery by 40% in Agile team using Git and modular MVC patterns.",
-        "Delivered client portal via WordPress, Elementor, Superio; responsive design for cross-device UX."
+        "Developed Edu-Score MCQ Platform using Django, SQL, and Bootstrap for 500+ student assessments.",
+        "Automated scoring, leaderboard ranking, and question sheet management, reducing manual workload by 75%.",
+        "Engineered a fully functional WordPress Job Board using the Superio theme with plugin customization.",
+        "Performed front-end optimization, backend CRUD operations, and API-based data handling."
       ],
       "tools": [
-        "Apps Script",
-        "Node.js",
+        "Python",
+        "Django",
+        "HTML",
+        "Bootstrap",
         "Postman",
-        "MongoDB",
+        "SQL",
         "JavaScript",
         "ClickUp",
         "WordPress",
@@ -101,6 +102,36 @@
     }
   ],
   "projects": [
+    {
+      "title": "Edu-Score — Django MCQ Evaluation Platform",
+      "link": "https://github.com/Er-Mayur/Edu-Score",
+      "demo": "https://edu-score.vercel.app/",
+      "description": "A full-stack Django-based MCQ testing platform enabling tutors to create quizzes and students to attempt them without login. Includes automatic scoring, real-time leaderboard, AJAX submissions, and personalized tutor dashboards.",
+      "tech": [
+        "Django",
+        "Python",
+        "SQL",
+        "Bootstrap",
+        "JavaScript",
+        "HTML"
+      ],
+      "image": "project_images/EduScore.webp"
+    },
+    {
+      "title": "Job Board Website — WordPress Superio Theme",
+      "link": "https://testingsociety.com/",
+      "demo": "https://testingsociety.com/",
+      "description": "A customized job portal built using WordPress and the Superio Job Board theme. Includes tailored dashboards, custom listings, plugin extensions, domain setup, and improved UI/UX for job seekers and employers.",
+      "tech": [
+        "WordPress",
+        "PHP",
+        "Elementor",
+        "Superio Theme",
+        "MySQL",
+        "Hosting"
+      ],
+      "image": "project_images/JobBoard.webp"
+    },
     {
       "title": "Weather App — Django OpenWeatherMap",
       "link": "https://github.com/Er-Mayur/Django-Weather-Application",
