@@ -105,7 +105,6 @@
     {
       "title": "Code RAG — Local AI Code Assistant",
       "link": "https://github.com/Er-Mayur/Code-RAG-Assistant-Django-Project",
-      "demo": "http://localhost:8000/",
       "description": "A local AI-powered RAG-based code assistant built with Django, Ollama, and deepseek-coder. It scans your project files, generates embeddings, and provides context-aware code explanations, debugging help, and project insights. Includes project indexing, chat sessions, auto-sync, WebSockets, and a ChatGPT-style UI — all running locally without cloud dependencies.",
       "tech": [
         "Django",
