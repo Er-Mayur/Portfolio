@@ -103,6 +103,24 @@
   ],
   "projects": [
     {
+      "title": "Code RAG — Local AI Code Assistant",
+      "link": "https://github.com/Er-Mayur/Code-RAG-Assistant-Django-Project",
+      "demo": "http://localhost:8000/",
+      "description": "A local AI-powered RAG-based code assistant built with Django, Ollama, and deepseek-coder. It scans your project files, generates embeddings, and provides context-aware code explanations, debugging help, and project insights. Includes project indexing, chat sessions, auto-sync, WebSockets, and a ChatGPT-style UI — all running locally without cloud dependencies.",
+      "tech": [
+        "Django",
+        "Python",
+        "Ollama",
+        "deepseek-coder",
+        "SQLite",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Django Channels"
+      ],
+      "image": "https://github-production-user-asset-6210df.s3.amazonaws.com/116785090/516279109-6ff11a31-d34b-4332-a214-75fe0c101533.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251119T131128Z&X-Amz-Expires=300&X-Amz-Signature=6586ad6ce6527af256d87b04ff185e0de1a425f11f7abcd8fb3f808ad4a4cbbe&X-Amz-SignedHeaders=host"
+    },
+    {
       "title": "Edu-Score — Django MCQ Evaluation Platform",
       "link": "https://github.com/Er-Mayur/Edu-Score",
       "demo": "https://edu-score.vercel.app/",
